@@ -7,7 +7,8 @@ import NotFound from "./Pages/NotFound";
 import Appointment from "./Pages/Appointment";
 import Consulting from "./Pages/Consulting";
 import Info from "./Components/Info"
-import Navbar from "./Components/Navbar";
+// import Navbar from "./Components/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer";
 import AssetBasedLending from "./Components/AssetBasedLending";
 import Business from "./Components/Business";
@@ -20,6 +21,8 @@ import Reviews from "./Components/Reviews";
 import FAQ from "./Components/Faq";
 import Overseas from "./Components/Overseas";
 import Tradefinance from "./Components/Tradefinance";
+import CPT from "./Components/Cpt";
+import Gold from "./Components/Gold";
 
 
 function App() {
@@ -38,7 +41,10 @@ function App() {
           <Route path="/unvoice" element={<Unvoice />} />
           <Route path="/cash" element={<Cash />} />
           <Route path="/overseas" element={<Overseas />} />
-          <Route path="/T" element={<Tradefinance />} />
+          <Route path="/T" element={<Tradefinance />} /> 
+          <Route path="/cpt" element={<CPT />} />
+          <Route path="/gold" element={<Gold />} />
+
           
 
           <Route path="/consulting" element={<Consulting/>} />

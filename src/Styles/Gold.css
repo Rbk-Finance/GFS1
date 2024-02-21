@@ -1,0 +1,166 @@
+/* Ensure the container can position its children absolutely */
+.cpt-image-content {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust based on your layout */
+    text-align: center;
+  
+    margin: auto; /* Center the container if within a flex parent */
+  }
+  
+  /* Adjust the image styling if needed */
+  .cpt-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.1; /* You already have this */
+  }
+  
+  /* Overlay content styling */
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#DFC675; /* Choose a color that contrasts well with your image */
+    text-align: center; /* Center the text within the overlay */
+    width: 80%; /* This will ensure the container takes more space, adjust as necessary */
+  }
+  
+  .overlay-text {
+    margin-bottom: 10px;
+    font-size: 24px; /* Increased font size for bigger text */
+    line-height: 1.4; /* Adjust line height for better readability at larger sizes */
+    word-wrap: break-word;
+    color:#DFC675;
+    font-weight: bold; /* Ensures text wraps to prevent overflow */
+  } 
+  
+  .overlay-subtext {
+    margin-bottom: 8px;
+    font-size: 32px; /* Medium text */
+    color:#DFC675;
+    font-weight: bold;
+  }
+  
+  .overlay-description {
+    font-size: 16px; /* Smallest text */
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+  }
+  
+  /* Consider adjusting the overlay-button styles if needed to match the increased text size */
+  .overlay-button {
+    padding: 12px 24px; /* Slightly larger button */
+    font-size: 18px;
+    background-color: #007bff;
+    /* Larger text on the button */
+    /* Other styles remain unchanged */
+  }
+  
+  .overlay-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .cpt-section {
+      padding: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      background: #fff;
+    }
+    
+    /* Image */
+    .cpt-image-content {
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    
+    .cpt-image {
+      width: 100%;
+      height: auto;
+      opacity: 0.2;
+    }
+    
+    /* Text */
+    .cpt-text-content {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .cpt-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      position: relative;
+    }
+    
+    .cpt-title > span::before {
+      content: '';
+      position: absolute;
+      width: 100%; /* Adjusted to cover the full width */
+      height: 4px;
+      background-color: #9d2553;
+      border-radius: 8px;
+      left: 0;
+      bottom: -12px;
+    }
+    
+    .cpt-description {
+      margin: 32px 0;
+      color: #4d4b4b;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.7px;
+      line-height: 1.7rem;
+      padding: auto;
+    }
+    
+    .cpt-text-title {
+      margin: 0 0 24px 0;
+      color: #4d4b4b;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0.7px;
+    }
+    
+    /* Steps */
+    .solution-steps-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px; /* Adjust the margin as needed */
+    }
+    
+    .cpt-text-step {
+      margin: 16px 0;
+    }
+    
+    .cpt-text-sTitle {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.7px;
+    }
+    
+    .cpt-text-description {
+      margin: 8px 24px;
+      color: #4d4b4b;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 0.7px;
+      line-height: 1.6rem;
+    }
+    
+    .cpt-buttons {
+      display: flex;
+      gap: 16px;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+      color: blue;
+    }
+    

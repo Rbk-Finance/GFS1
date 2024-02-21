@@ -84,15 +84,20 @@ function Navbar() {
       <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
         <span class="sr-only">Toggle Dropdown</span>
       </button>
-      <div class="dropdown-menu" style={{ backgroundColor: 'dimwhite' }}>
+      <div class="dropdown-menu" style={{ backgroundColor: 'gray' }}>
+      
+       <a class="dropdown-item" href="/cpt">CPT</a>
+       <a class="dropdown-item" href="/gold">Gold</a>
+       <a class="dropdown-item" href="/T">Tradefinance</a>
+       <a class="dropdown-item" href="/info">Business Financing</a>
        
-        <a class="dropdown-item" href="/asset-based-lending"> Asset-Based-Lending</a>
+        {/* <a class="dropdown-item" href="/asset-based-lending"> Asset-Based-Lending</a>
        
         <a class="dropdown-item" href="/business">Business line of credit</a>
         <a class="dropdown-item" href="/unvoice">Invoice Financing</a>
         <a class="dropdown-item" href="/cash">Merchant Cash Advance</a>
         <a class="dropdown-item" href="/overseas">Overseas Financing</a>
-        <a class="dropdown-item" href="/T">Tradefinance</a>
+        <a class="dropdown-item" href="/T">Tradefinance</a> */}
 
         {/* <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="#">Separated link</a> */}

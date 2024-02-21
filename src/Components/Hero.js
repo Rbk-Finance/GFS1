@@ -34,7 +34,7 @@ function Hero() {
         <div className="text-section">
           <p className="text-headline">Empower, Invest, Thrive.</p>
           <h2 className="text-title">
-            Empowering Your Financial Journey Online.
+            Empowering Your Financial Freedom.
           </h2>
           <p className="text-descritpion">
             Our team of financial analysts employs a strategic methodology to

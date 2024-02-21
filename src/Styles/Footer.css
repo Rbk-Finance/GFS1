@@ -60,7 +60,7 @@
     border-radius: 50px;
     outline: transparent;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: .8px;
 }
 .ft-btn {
@@ -108,6 +108,7 @@
 }
 .ft-list-items li a:hover {
     border-bottom: 2px dotted #a5a7ac;
+    color: #1A8EFD;
 }
 /* CopyRight */
 .ft-copyright {
