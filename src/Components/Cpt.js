@@ -1,5 +1,5 @@
 import React from "react";
-import Doctor from "../Assets/tradefinance.png";
+import Doctor from "../Assets/cpt.jpg";
 import SolutionStep from "./SolutionStep";
 import "../Styles/Cpt.css";
 
@@ -11,9 +11,9 @@ function CPT() {
       <div className="cpt-image-content" style={{ position: 'relative' }}>
         <img src={Doctor} alt="Doctor Group" className="cpt-image" />
         <div className="overlay-content">
-          <h3 className="overlay-text">Invest in Gold, Silver, Platinum and Palladium at best prices.</h3>
+          {/* <h3 className="overlay-text">Invest in Gold, Silver, Platinum and Palladium at best prices.</h3>
           <h2 className="overlay-subtext">Trade Anytime, Anywhere</h2>
-          <p className="overlay-description">Presenting Khazana, An app that aims to democratize investments in all physical precious metals.</p>
+          <p className="overlay-description">Presenting Khazana, An app that aims to democratize investments in all physical precious metals.</p> */}
           <button className="overlay-button">Learn More</button>
         </div>
       </div>

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d679dd9.css",
+    "main.js": "/static/js/main.8a9894e8.js",
+    "static/media/heroimg.jpg": "/static/media/heroimg.f55b21959221b8d2897c.jpg",
+    "static/media/tradefinance.png": "/static/media/tradefinance.c7f91463f5d4e8cf0c24.png",
+    "static/media/aboutus.png": "/static/media/aboutus.0f7b03c7e8b387bd2bc9.png",
+    "static/media/doctor-picture.png": "/static/media/doctor-picture.4f1f4ec711e2c9bc16d0.png",
+    "static/media/gold.jpeg": "/static/media/gold.d27bb0d3fa970de2200f.jpeg",
+    "static/media/doctor-book-appointment.png": "/static/media/doctor-book-appointment.b7ac055f8b1200a230d9.png",
+    "static/media/doctor-group.png": "/static/media/doctor-group.e3c109cd1c21ff6aae8a.png",
+    "static/media/research.jpg": "/static/media/research.a67f00963f7b82b6ba67.jpg",
+    "index.html": "/index.html",
+    "main.4d679dd9.css.map": "/static/css/main.4d679dd9.css.map",
+    "main.8a9894e8.js.map": "/static/js/main.8a9894e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d679dd9.css",
+    "static/js/main.8a9894e8.js"
+  ]
+}

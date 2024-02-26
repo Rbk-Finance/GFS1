@@ -12,7 +12,7 @@
 .cpt-image {
   width: 100%;
   height: auto;
-  opacity: 0.1; /* You already have this */
+  /* opacity: 0.1; */
 }
 
 /* Overlay content styling */
@@ -20,7 +20,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   color:#DFC675; /* Choose a color that contrasts well with your image */
   text-align: center; /* Center the text within the overlay */
   width: 80%; /* This will ensure the container takes more space, adjust as necessary */

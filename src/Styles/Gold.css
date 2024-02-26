@@ -12,53 +12,63 @@
   .cpt-image {
     width: 100%;
     height: auto;
-    opacity: 0.1; /* You already have this */
+    opacity: 0.01; /* You already have this */
   }
   
   /* Overlay content styling */
   .overlay-content {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:#DFC675; /* Choose a color that contrasts well with your image */
+    color:#937205; /* Choose a color that contrasts well with your image */
     text-align: center; /* Center the text within the overlay */
-    width: 80%; /* This will ensure the container takes more space, adjust as necessary */
+    width: 100%; /* This will ensure the container takes more space, adjust as necessary */
   }
   
   .overlay-text {
     margin-bottom: 10px;
-    font-size: 24px; /* Increased font size for bigger text */
+    font-size: 33px; /* Increased font size for bigger text */
     line-height: 1.4; /* Adjust line height for better readability at larger sizes */
     word-wrap: break-word;
-    color:#DFC675;
+    color:#c19a1c;
     font-weight: bold; /* Ensures text wraps to prevent overflow */
   } 
   
   .overlay-subtext {
     margin-bottom: 8px;
-    font-size: 32px; /* Medium text */
-    color:#DFC675;
+    font-size: 55px; /* Medium text */
+    color:#c19a1c;
     font-weight: bold;
   }
   
   .overlay-description {
-    font-size: 16px; /* Smallest text */
+    font-size: 20px; /* Smallest text */
     color: rgb(18, 18, 18);
-    font-weight: bold;
+    /* font-weight: bold; */
   }
   
   /* Consider adjusting the overlay-button styles if needed to match the increased text size */
   .overlay-button {
-    padding: 12px 24px; /* Slightly larger button */
-    font-size: 18px;
-    background-color: #007bff;
+    padding: 18px 24px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    outline: transparent;
+    background-color: #c19a1c
+    ;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .8px;
+    cursor: pointer;
+    transition: all .4s ease;
+    
     /* Larger text on the button */
     /* Other styles remain unchanged */
   }
   
   .overlay-button:hover {
-    background-color: #0056b3;
+    background-color:transparent;
   }
   
   
@@ -163,4 +173,66 @@
     .btn-secondary {
       color: blue;
     }
+
+
+    .khazana-container {
+      padding: 32px;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      background: #fff; /* White background */
+      color: #333; /* Dark text for readability */
+      margin-top: 50px; /* Space between the sections */
+    }
+    
+    .khazana-content {
+      text-align: center;
+      max-width: 600px; /* Adjust as needed */
+    }
+    
+    .khazana-content h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      color: #937205; /* Golden color */
+      margin-bottom: 20px;
+    }
+    
+    .khazana-content p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      color: #4d4b4b; /* Dark grey color */
+      line-height: 1.7rem;
+      margin-bottom: 20px;
+    }
+    
+    .khazana-image img {
+      width: 100%;
+      max-width: 400px; /* Adjust as needed */
+      height: auto;
+      margin-top: 20px;
+    }
+    
+    
+    .contact-us button {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      color: white;
+      background-color: #c19a1c;
+      padding: 18px 24px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all .4s ease;
+      margin-top: 20px;
+      
+      
+    }
+    
+    .contact-us button:hover {
+      background-color: transparent;
+      color: #c19a1c;
+      border: 1px solid #c19a1c;
+    }
+    
     

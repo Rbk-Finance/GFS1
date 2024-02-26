@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import * as Icons from "react-icons/fa";
+// import * as Icons from "react-icons/fa";
 import "./Navbar.css";
 import { navItems } from "./NavItems";
 import Button from "./Button";

@@ -2,8 +2,8 @@ import React from "react";
 import Doctor from "../Assets/doctor-group.png";
 import SolutionStep from "../Components/SolutionStep";
 import "../Styles/Consulting.css";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+// import Navbar from "../Components/Navbar";
+// import Footer from "../Components/Footer";
 
 function Consulting() {
   return (

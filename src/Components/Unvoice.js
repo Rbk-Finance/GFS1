@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../Styles/Info.css"; // You can create a new CSS file for specific styling if needed
 
 function Unvoice() {
